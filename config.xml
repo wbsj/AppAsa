@@ -28,6 +28,6 @@
 	
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="true" readonly="true"/> -->
-        <preference name="SplashScreenDelay" value="5000" />
+        <!--<preference name="SplashScreenDelay" value="5000" /> -->
 	<preference name="auto-hide-splash-screen" value="false" />
 </widget>
