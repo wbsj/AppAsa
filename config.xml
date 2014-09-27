@@ -28,4 +28,5 @@
 
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="true" readonly="true"/> -->
+        <preference name="SplashScreenDelay" value="5000" />
 </widget>
