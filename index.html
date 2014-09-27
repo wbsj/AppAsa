@@ -5,13 +5,12 @@
    window.location.replace("http://myapp.dyndns.org/dms/prjnewasa.dll");
     // Wait for device API libraries to load
     //
-    document.addEventListener("deviceready", onDeviceReady, false);
-
-    // device APIs are available
-    //
-    function onDeviceReady() {
-        navigator.splashscreen.show();
-    }
+    document.addEventListener("deviceready", function(e) {
+window.setTimeout(function() {
+navigator.splashscreen.hide();
+},5000);
+ 
+}, "false");
 
 </script>
 
