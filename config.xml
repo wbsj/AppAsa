@@ -20,6 +20,7 @@
 	<gap:platforms>
 		<gap:platform name="android" minVersion="2.1" />
 	</gap:platforms>
+        <gap:plugin name = "org.apache.cordova.splashscreen" />
 
 	<icon src="ta_icon.png" gap:role="default" />
         
@@ -29,5 +30,5 @@
 	<!-- sample preference specification -->
 	<!-- <preference name="autorotate" value="true" readonly="true"/> -->
         <!--<preference name="SplashScreenDelay" value="5000" /> -->
-	<preference name="auto-hide-splash-screen" value="false" />
+	<preference name="AutoHideSplashScreen" value="false" />
 </widget>
